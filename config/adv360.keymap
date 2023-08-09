@@ -37,21 +37,21 @@
 
         default_layer {
             bindings = <
-       &kp ESC  &kp NUMBER_1  &kp N2        &kp N3            &kp N4  &kp N5                &none                                                                                 &kp DEL  &kp N6         &kp N7     &kp N8   &kp N9     &kp N0         &kp GRAVE
-       &kp TAB         &kp Q   &kp W         &kp E             &kp R   &kp T                &none                                                                                   &none   &kp Y          &kp U      &kp I    &kp O      &kp P             &none
-     &kp EQUAL         &kp A   &kp S         &kp D             &kp F   &kp G               &kp AT           &none                   &bt BT_CLR                   &none   &none   &kp PLUS   &kp H          &kp J      &kp K    &kp L      &none             &none
-  &kp QUESTION         &kp Z   &kp X         &kp C             &kp V   &kp B                                                             &none                   &none                      &kp N          &kp M  &kp COMMA  &kp DOT  &kp MINUS  &kp SINGLE_QUOTE
- &kp AMPERSAND  &kp LEFT_WIN   &mo 3  &kp LEFT_ALT  &kp LEFT_CONTROL                    &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                   &mo 2   &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &kp TILDE     &kp BACKSLASH
+                 &kp ESC  &kp NUMBER_1  &kp N2        &kp N3            &kp N4  &kp N5                             &none                                                                                 &kp DEL  &kp N6         &kp N7     &kp N8   &kp N9                       &kp N0  &mt LEFT_SHIFT EQUAL
+                 &kp TAB         &kp Q   &kp W         &kp E             &kp R   &kp T                             &none                                                                                   &none   &kp Y          &kp U      &kp I    &kp O                        &kp P      &kp LEFT_BRACKET
+ &mt LEFT_SHIFT NUMBER_0         &kp A   &kp S         &kp D             &kp F   &kp G            &mt RIGHT_ALT NUMBER_2           &none                   &bt BT_CLR                   &none   &none  &kp MINUS   &kp H          &kp J      &kp K    &kp L                &kp SEMICOLON      &kp SINGLE_QUOTE
+    &mt LEFT_SHIFT MINUS         &kp Z   &kp X         &kp C             &kp V   &kp B                                                                          &none                   &none                      &kp N          &kp M  &kp COMMA  &kp DOT                    &kp SLASH         &kp BACKSLASH
+ &mt LEFT_SHIFT NUMBER_6  &kp LEFT_WIN   &mo 3  &kp LEFT_ALT  &kp LEFT_CONTROL                                 &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                   &mo 2   &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &mt RIGHT_ALT RIGHT_BRACKET   &mt RIGHT_ALT MINUS
             >;
         };
 
         layer_Func {
             bindings = <
-    &trans                &kp F1                 &kp F2          &kp F3            &kp F4             &kp F5            &trans                                                  &trans           &kp F6            &kp F7             &kp F8        &kp F9        &kp F10   &kp F11
-    &trans             &kp CARET             &kp DOLLAR  &kp LEFT_BRACE   &kp RIGHT_BRACE        &kp PERCENT            &trans                                                  &trans           &trans          &kp HOME       &kp UP_ARROW       &kp END    &kp PAGE_UP   &kp F12
-    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp COLON     &kp SEMICOLON  &kp DOUBLE_QUOTES            &trans  &trans  &trans                  &trans  &trans  &trans  &kp EXCLAMATION    &kp LEFT_ARROW     &kp DOWN_ARROW  &kp UP_ARROW  &kp PAGE_DOWN  &kp HASH
- &kp SLASH         &kp LESS_THAN       &kp GREATER_THAN    &kp LEFT_ALT  &kp LEFT_CONTROL       &kp LEFT_WIN                            &trans                  &trans                           &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &trans         &trans    &trans
-  &kp PIPE                &trans                 &trans          &trans            &trans                               &trans  &trans  &trans                  &trans  &trans  &trans                             &trans             &trans        &trans         &trans    &trans
+                  &trans                        &kp F1                    &kp F2                  &kp F3                  &kp F4                   &kp F5            &trans                                                  &trans                   &kp F6                  &kp F7                  &kp F8        &kp F9        &kp F10                  &kp F11
+                  &trans  &mt LEFT_SHIFT RIGHT_BRACKET    &mt RIGHT_ALT NUMBER_4  &mt RIGHT_ALT NUMBER_7  &mt RIGHT_ALT NUMBER_0  &mt LEFT_SHIFT NUMBER_5            &trans                                                  &trans                   &trans                &kp HOME            &kp UP_ARROW       &kp END    &kp PAGE_UP                  &kp F12
+                  &trans       &mt LEFT_SHIFT NUMBER_8   &mt LEFT_SHIFT NUMBER_9      &mt LEFT_SHIFT DOT    &mt LEFT_SHIFT COMMA  &mt LEFT_SHIFT NUMBER_2            &trans  &trans  &trans                  &trans  &trans  &trans  &mt LEFT_SHIFT NUMBER_1          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp UP_ARROW  &kp PAGE_DOWN  &mt LEFT_SHIFT NUMBER_3
+ &mt LEFT_SHIFT NUMBER_7                 &kp BACKSLASH  &mt LEFT_SHIFT BACKSLASH            &kp LEFT_ALT        &kp LEFT_CONTROL             &kp LEFT_WIN                            &trans                  &trans                                   &trans  &mt RIGHT_ALT NUMBER_8  &mt RIGHT_ALT NUMBER_9        &trans         &trans                   &trans
+ &mt RIGHT_ALT BACKSLASH                        &trans                    &trans                  &trans                  &trans                                     &trans  &trans  &trans                  &trans  &trans  &trans                                           &trans                  &trans        &trans         &trans                   &trans
             >;
         };
 
