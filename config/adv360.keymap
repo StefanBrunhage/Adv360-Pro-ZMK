@@ -15,6 +15,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/backlight.h>
 
 / {
   behaviors {
@@ -37,11 +38,11 @@
 
         default_layer {
             bindings = <
-          &kp ESC  &kp NUMBER_1  &kp N2        &kp N3            &kp N4  &kp N5                         &to                                                                                 &kp DEL  &kp N6         &kp N7     &kp N8   &kp N9                 &kp N0     &kp LS(EQUAL)
-          &kp TAB         &kp Q   &kp W         &kp E             &kp R   &kp T                       &none                                                                                   &none   &kp Y          &kp U      &kp I    &kp O                  &kp P  &kp LEFT_BRACKET
- &kp LS(NUMBER_0)         &kp A   &kp S         &kp D             &kp F   &kp G            &kp RA(NUMBER_2)           &none                   &bt BT_CLR                   &none   &none  &kp MINUS   &kp H          &kp J      &kp K    &kp L          &kp SEMICOLON  &kp SINGLE_QUOTE
-    &kp LS(MINUS)         &kp Z   &kp X         &kp C             &kp V   &kp B                                                                    &none                   &none                      &kp N          &kp M  &kp COMMA  &kp DOT              &kp SLASH     &kp BACKSLASH
- &kp LS(NUMBER_6)  &kp LEFT_WIN   &mo 3  &kp LEFT_ALT  &kp LEFT_CONTROL                           &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                   &mo 2   &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &kp RA(RIGHT_BRACKET)     &kp RA(MINUS)
+          &kp ESC  &kp NUMBER_1  &kp N2        &kp N3            &kp N4  &kp N5                         &to                                                                                         &kp DEL  &kp N6         &kp N7     &kp N8   &kp N9                 &kp N0     &kp LS(EQUAL)
+          &kp TAB         &kp Q   &kp W         &kp E             &kp R   &kp T                       &none                                                                                           &none   &kp Y          &kp U      &kp I    &kp O                  &kp P  &kp LEFT_BRACKET
+ &kp LS(NUMBER_0)         &kp A   &kp S         &kp D             &kp F   &kp G            &kp RA(NUMBER_2)      &bt BT_CLR                   &bt BT_NXT                  &bl BL_INC  &bl BL_TOG  &kp MINUS   &kp H          &kp J      &kp K    &kp L          &kp SEMICOLON  &kp SINGLE_QUOTE
+    &kp LS(MINUS)         &kp Z   &kp X         &kp C             &kp V   &kp B                                                               &bt BT_PRV                  &bl BL_DEC                          &kp N          &kp M  &kp COMMA  &kp DOT              &kp SLASH     &kp BACKSLASH
+ &kp LS(NUMBER_6)  &kp LEFT_WIN   &mo 3  &kp LEFT_ALT  &kp LEFT_CONTROL                           &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                       &mo 2       &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &kp RA(RIGHT_BRACKET)     &kp RA(MINUS)
             >;
         };
 
