@@ -10,11 +10,11 @@
   ],
   "layers": [
     [
-             "&kp ESC", "&kp NUMBER_1", "&kp N2",       "&kp N3",           "&kp N4", "&kp N5",               "&none",                                                                                                  "&kp DEL", "&kp N6",        "&kp N7",    "&kp N8",   "&kp N9",    "&kp N0",        "&kp GRAVE",
-             "&kp TAB",        "&kp Q",  "&kp W",        "&kp E",            "&kp R",  "&kp T",           "&kp TILDE",                                                                                                      "&mt",  "&kp Y",         "&kp U",     "&kp I",    "&kp O",     "&kp P",            "&none",
-           "&kp EQUAL",        "&kp A",  "&kp S",        "&kp D",            "&kp F",  "&kp G",              "&kp AT",      "&kp LCTRL",                    "&kp LALT",                      "&kp LGUI", "&kp RCTRL",  "&kp PLUS",  "&kp H",         "&kp J",     "&kp K",    "&kp L",  "&kp SEMI",            "&none",
-        "&kp QUESTION",        "&kp Z",  "&kp X",        "&kp C",            "&kp V",  "&kp B",                                                             "&kp HOME",                     "&kp PG_UP",                            "&kp N",         "&kp M", "&kp COMMA",  "&kp DOT", "&kp MINUS", "&kp SINGLE_QUOTE",
-       "&kp AMPERSAND", "&kp LEFT_WIN",  "&mo 3", "&kp LEFT_ALT", "&kp LEFT_CONTROL",                     "&kp SPACE", "&kp LEFT_SHIFT", "&mt LEFT_SHIFT LEFT_CONTROL",                         "&mo 2",     "&mo 1", "&kp ENTER",           "&kp BACKSPACE",  "&kp DOWN", "&kp LBKT", "&kp TILDE",    "&kp BACKSLASH"
+             "&kp ESC", "&kp NUMBER_1", "&kp N2",       "&kp N3",           "&kp N4", "&kp N5",               "&none",                                                                                            "&kp DEL", "&kp N6",        "&kp N7",    "&kp N8",  "&kp N9",    "&kp N0",        "&kp GRAVE",
+             "&kp TAB",        "&kp Q",  "&kp W",        "&kp E",            "&kp R",  "&kp T",               "&none",                                                                                                "&mt",  "&kp Y",         "&kp U",     "&kp I",   "&kp O",     "&kp P",            "&none",
+           "&kp EQUAL",        "&kp A",  "&kp S",        "&kp D",            "&kp F",  "&kp G",              "&kp AT",          "&none",                       "&none",                      "&none",  "&none",  "&kp PLUS",  "&kp H",         "&kp J",     "&kp K",   "&kp L",     "&none",            "&none",
+        "&kp QUESTION",        "&kp Z",  "&kp X",        "&kp C",            "&kp V",  "&kp B",                                                                "&none",                      "&none",                         "&kp N",         "&kp M", "&kp COMMA", "&kp DOT", "&kp MINUS", "&kp SINGLE_QUOTE",
+       "&kp AMPERSAND", "&kp LEFT_WIN",  "&mo 3", "&kp LEFT_ALT", "&kp LEFT_CONTROL",                     "&kp SPACE", "&kp LEFT_SHIFT", "&mt LEFT_SHIFT LEFT_CONTROL",                      "&mo 2",  "&mo 1", "&kp ENTER",           "&kp BACKSPACE",     "&none",   "&none", "&kp TILDE",    "&kp BACKSLASH"
     ], [
           "&trans",               "&kp F1",                "&kp F2",         "&kp F3",           "&kp F4",            "&kp F5",           "&trans",                                                             "&trans",          "&kp F6",           "&kp F7",            "&kp F8",       "&kp F9",       "&kp F10",  "&kp F11",
           "&trans",            "&kp CARET",            "&kp DOLLAR", "&kp LEFT_BRACE",  "&kp RIGHT_BRACE",       "&kp PERCENT",           "&trans",                                                             "&trans",          "&trans",         "&kp HOME",      "&kp UP_ARROW",      "&kp END",   "&kp PAGE_UP",  "&kp F12",
@@ -28,11 +28,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                   "&trans",         "&trans",          "&trans",          "&trans",          "&trans",       "&trans",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                   "&trans", "&kp KP_NUMLOCK", "&kp KP_NUMBER_7", "&kp KP_NUMBER_8", "&kp KP_NUMBER_9",       "&trans",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans",       "&trans",   "&kp KP_SLASH", "&kp KP_NUMBER_4", "&kp KP_NUMBER_5", "&kp KP_NUMBER_6",  "&kp KP_PLUS",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                            "&kp BACKSPACE", "&kp KP_NUMBER_1", "&kp KP_NUMBER_2", "&kp KP_NUMBER_3", "&kp KP_MINUS", "&kp KP_ASTERISK",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&kp KP_ENTER",                   "&kp KP_NUMBER_0",    "&kp KP_COMMA",      "&kp KP_DOT",       "&trans",          "&trans"
     ]
   ]
 }
