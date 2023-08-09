@@ -42,7 +42,7 @@
           &kp TAB         &kp Q   &kp W         &kp E             &kp R   &kp T                       &none                                                                                           &none   &kp Y          &kp U      &kp I    &kp O                  &kp P  &kp LEFT_BRACKET
  &kp LS(NUMBER_0)         &kp A   &kp S         &kp D             &kp F   &kp G            &kp RA(NUMBER_2)      &bt BT_CLR                   &bt BT_NXT                  &bl BL_INC  &bl BL_TOG  &kp MINUS   &kp H          &kp J      &kp K    &kp L          &kp SEMICOLON  &kp SINGLE_QUOTE
     &kp LS(MINUS)         &kp Z   &kp X         &kp C             &kp V   &kp B                                                               &bt BT_PRV                  &bl BL_DEC                          &kp N          &kp M  &kp COMMA  &kp DOT              &kp SLASH     &kp BACKSLASH
- &kp LS(NUMBER_6)  &kp LEFT_WIN   &mo 3  &kp LEFT_ALT  &kp LEFT_CONTROL                           &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                       &mo 2       &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &kp RA(RIGHT_BRACKET)     &kp RA(MINUS)
+ &kp LS(NUMBER_6)  &kp LEFT_WIN   &mo 2  &kp LEFT_ALT  &kp LEFT_CONTROL                           &kp SPACE  &kp LEFT_SHIFT  &mt LEFT_SHIFT LEFT_CONTROL                       &mo 1       &mo 1  &kp ENTER          &kp BACKSPACE      &none    &none  &kp RA(RIGHT_BRACKET)     &kp RA(MINUS)
             >;
         };
 
@@ -56,17 +56,7 @@
             >;
         };
 
-        layer_Layer__2 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_Layer__3 {
+        layer_Numpad {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans          &trans           &trans           &trans           &trans        &trans           &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &trans           &trans
